@@ -8,8 +8,9 @@ It does the same thing when it matches a mention of `t.me/bitcoin`.
 ## How to use
 1. Create a Telegram bot by speaking to [@BotFather](https://t.me/botfather).
 2. Clone this repo.
-3. Create a `.env` file with the token you received from _BotFather_:
+3. Run `yarn install`
+4. Create a `.env` file with the token you received from _BotFather_:
 ```
 TOKEN='pasteyourtokenhere'
 ```
-4. Start it with `node index.js`
+5. Start it with `node index.js`
