@@ -13,4 +13,5 @@ It does the same thing when it matches a mention of `t.me/bitcoin`.
 ```
 TOKEN='pasteyourtokenhere'
 ```
-5. Start it with `node index.js`
+5. Start it with `node index.js`.
+6. Add your bot to your group and **give it admin rights** so it can delete messages and ban spammers.
