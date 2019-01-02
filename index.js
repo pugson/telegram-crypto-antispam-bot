@@ -34,4 +34,9 @@ bot.on('message', (msg) => {
     console.log(`Spam message: ${msg.text}`)
     banAndKick(chatId, msg.from.id, msg.message_id)
   }
+  
+  if (msg.text.match(/using my link/g)) {
+    console.log(`Spam message: ${msg.text}`)
+    banAndKick(chatId, msg.from.id, msg.message_id)
+  }
 });
