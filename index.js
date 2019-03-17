@@ -30,8 +30,7 @@ bot.on('message', (msg) => {
     }
   }
   
-  if (msg.text.match(/t.cn\//g)) {
-    console.log(`Spam message: ${msg.text}`)
+  if (msg.caption.match(/t.cn/g)) {
     banAndKick(chatId, msg.from.id, msg.message_id)
   }
 
