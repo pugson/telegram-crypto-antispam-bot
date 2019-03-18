@@ -33,6 +33,10 @@ bot.on('message', (msg) => {
   if (msg.caption.match(/t.cn/g)) {
     banAndKick(chatId, msg.from.id, msg.message_id)
   }
+  
+  if (msg.caption.match(/^hi$/g)) {
+    banAndKick(chatId, msg.from.id, msg.message_id)
+  }
 
   if (msg.text.match(/t.me\/bitcoin/g)) {
     console.log(`Spam message: ${msg.text}`)
